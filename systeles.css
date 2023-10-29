@@ -1,0 +1,178 @@
+body {
+    display: block;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: inherit;
+    object-fit: cover;
+    background-position: top;
+    background-color: hsl(0, 0%, 90%);
+}
+
+
+#titulo {
+    font-size: 35px;
+    color: rgb(255, 254, 254);
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1347310666/es/foto/chip-de-procesador-entorno-tecnol%C3%B3gico-concepto-de-blockchain.jpg?s=1024x1024&w=is&k=20&c=vKzBfB8VsLF3NvAnSr62s7YckXrgconVV-hSraAc4d4=);
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+form {
+    color: rgb(15, 15, 16);
+    box-shadow: 0 0 20px rgba(181, 23, 23, 0.2);
+    padding: 54px 35px;
+    background-color: rgba(38, 71, 217, 0.675);
+    border-radius: 25px;
+    border-radius: 3px solid rgba(203, 118, 226, 0.5);
+    border: 3%;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+
+}
+
+
+.imput-wrapper {
+    position: relative;
+    text-align: left;
+    color: wheat;
+    width: 374px;
+    margin-bottom: 45px;
+}
+
+input {
+    color: #0D0D0D;
+    padding: 20px 15px 20px 60px;
+    width: 100%;
+    border-radius: 25px;
+    border-radius: 2px solid rgba(203, 118, 226, 0.5);
+    border: 2;
+    box-shadow: 0 0 20px rgba(203, 118, 226, 0.5);
+    outline: none;
+    font-size: 15px;
+}
+
+#genero {
+    display: contein;
+    color: white;
+    font-size: 16px;
+    border: 2;
+    background-color: rgba(25, 109, 244, 0.486);
+    border-radius: 20px;
+    border: 2;
+    margin-bottom: 30px;
+}
+
+.button {
+    color: #fff;
+    width: 100%;
+    background: #13190a;
+    border: none;
+    cursor: pointer;
+    padding: 16px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.button::before {
+    display: flex;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 101%;
+    height: 110%;
+    background: radial-gradient(circle, red, blue, green, rgb(202, 16, 115), blue, red, yellow, deeppink, blue), transparent;
+    background-size: 400%;
+    backdrop-filter: blur(2px);
+    border-radius: 18px;
+
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0% 50%;
+        /* Define la posición inicial del degradado */
+    }
+
+    50% {
+        background-position: 200% 50%;
+        /* Define la posición en la mitad de la animación */
+    }
+
+    100% {
+        background-position: 0% 50%;
+        /* Define la posición final del degradado */
+    }
+}
+
+.imagenes1 {
+    background-color: #13190a49;
+    display: block;
+    width: 210px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 25px;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 207%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px 19px 20px;
+}
+
+.imagenes2 {
+    background-color: #13190a43;
+    display: block;
+    width: 178px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 25px;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 100%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px 19px 20px;
+}
+
+.imagenes3 {
+    background-color: #13190a58;
+    display: block;
+    width: 178px;
+    height: 98px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 20px;
+    border: 3px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 100%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px 15px 20px;
+}
