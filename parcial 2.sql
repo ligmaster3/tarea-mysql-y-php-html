@@ -1,0 +1,1 @@
+SELECT * FROM parcial2.compras;

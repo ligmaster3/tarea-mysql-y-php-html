@@ -1,0 +1,14 @@
+<?php
+include("conexionbd.php");
+$codempl = $_POST["codempleado"];
+$cedempl = $_POST["cedula"];
+$apeempl = $_POST["apellido"];
+$nomempl = $_POST["nombre"];
+$genempl = $_POST["genero"];
+//Sentencia SQL: Guardar Registros.
+$query = "INSERT INTO empleados (codigo_empleado,cedula_empleado,apellido_empleado,nombre_empleado,genero_empleado) VALUES ('$codempl','$cedempl','$apeempl','$nomempl','$genempl')";
+$result = mysqli_query($enlace,$query);
+if ($result) {
+echo "Información guardada";
+}
+?>
